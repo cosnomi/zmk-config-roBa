@@ -99,7 +99,7 @@
 &kp Q               &kp W         &kp E          &kp R         &kp T                                                    &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &mt LEFT_CONTROL A  &kp S         &kp D          &kp F         &kp G        &kp LS(LG(S))                &kp APOS       &kp H        &kp J  &kp K      &kp L    &kp MINUS
 &mt LEFT_SHIFT Z    &kp X         &kp C          &kp V         &kp B        &kp LANG_ZENKAKUHANKAKU      &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL           &kp LEFT_WIN  &kp SEMICOLON  &kp LEFT_ALT  &lt 3 SPACE  &lt_to_layer_0 2 TAB         &kp BACKSPACE  &lt 1 ENTER                             &kp ESCAPE
+&kp LCTRL           &kp LEFT_WIN  &kp SEMICOLON  &kp LEFT_ALT  &lt 3 SPACE  &lt_to_layer_0 2 TAB         &kp BACKSPACE  &lt 1 ENTER                             &lt 6 ESCAPE
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
