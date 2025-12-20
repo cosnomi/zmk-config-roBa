@@ -38,32 +38,17 @@
 
         shift_tab {
             bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
-        };
-
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
             key-positions = <11 10>;
-        };
-
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
-        };
-
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
         };
 
         ime_on {
             bindings = <&kp LANGUAGE_1>;
-            key-positions = <2 3>;
+            key-positions = <12 13>;
         };
 
         ime_off {
             bindings = <&kp LANGUAGE_2>;
-            key-positions = <6 7>;
+            key-positions = <18 19>;
         };
     };
 
@@ -101,10 +86,10 @@
 
         default_layer {
             bindings = <
-&kp Q               &kp W         &kp E          &kp R   &kp T                                                    &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&mt LEFT_CONTROL A  &kp S         &kp D          &kp F   &kp G        &kp LS(LG(S))                &kp APOS       &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&mt LEFT_SHIFT Z    &kp X         &kp C          &kp V   &kp B        &kp LANG_ZENKAKUHANKAKU      &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL           &kp LEFT_WIN  &kp SEMICOLON  &gresc  &lt 3 SPACE  &lt_to_layer_0 2 TAB         &kp BACKSPACE  &lt 1 ENTER                             &lt 6 ESCAPE
+&kp Q               &kp W         &kp E          &kp R           &kp T                                                    &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&mt LEFT_CONTROL A  &kp S         &kp D          &kp F           &kp G        &kp LS(LG(S))                &kp APOS       &kp H        &kp J  &kp K      &kp L    &kp MINUS
+&mt LEFT_SHIFT Z    &kp X         &kp C          &kp V           &kp B        &kp LANG_ZENKAKUHANKAKU      &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL           &kp LEFT_WIN  &kp SEMICOLON  &lt 5 LEFT_ALT  &lt 3 SPACE  &lt_to_layer_0 2 TAB         &kp BACKSPACE  &lt 1 ENTER                             &lt 6 ESCAPE
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
