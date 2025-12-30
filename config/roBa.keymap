@@ -101,7 +101,7 @@
 &sk LCTRL         &kp LEFT_WIN  &lt 1 LA(ESCAPE)  &kp LEFT_ALT  &lt 3 SPACE  &lt_to_layer_0 2 TAB      &kp BACKSPACE            &kp ENTER                             &lt 6 ESCAPE
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp PG_DN PG_UP>;
         };
 
         FUNCTION {
