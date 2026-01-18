@@ -59,6 +59,21 @@
             bindings = <&to 3>;
             key-positions = <18 9>;
         };
+
+        ctrl+c {
+            bindings = <&kp LC(C)>;
+            key-positions = <23 24>;
+        };
+
+        ctrl+v {
+            bindings = <&kp LC(V)>;
+            key-positions = <25 26>;
+        };
+
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <0 1>;
+        };
     };
 
     macros {
